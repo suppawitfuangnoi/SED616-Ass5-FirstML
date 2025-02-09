@@ -10,7 +10,7 @@ st.title("My first ML App (Study on Imbalanced Data Classification by 6713070171
 
 # Input fields
 features = []
-for i in range(11):  # Adjust based on dataset
+for i in range(10):  # Adjust based on dataset
     value = st.number_input(f"Feature_{i}", value=0.0)
     features.append(value)
 
